@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: testingDeep-team-a
+  description: Team A responsible for backend services
+  tags:
+    - team
+    - backend
+spec:
+  type: team
+  profile:
+    displayName: Team A
+    email: team-a@example.com
+  children:
+    - testingDeep-team-b
+  members:
+    - testingDeep-jane-doe
+    - testingDeep-john-smith

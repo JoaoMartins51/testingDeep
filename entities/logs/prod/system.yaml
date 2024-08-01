@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: testingDeep-my-system
+  description: A sample system
+  tags:
+    - system
+    - backend
+spec:
+  owner: testingDeep-team-a
+  domain: testingDeep-my-domain
+  lifecycle: production
+  components:
+    - testingDeep-my-service
+    - testingDeep-another-service
