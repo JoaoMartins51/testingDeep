@@ -10,11 +10,3 @@ spec:
   type: grpc
   lifecycle: production
   owner: testingDeep-team-a
-  definition:
-    type: openapi
-    content: |
-      openapi: "3.0.0"
-      info:
-        title: My Service API
-        version: "1.0.0"
-      paths: {}
