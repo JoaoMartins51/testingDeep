@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: testingDeep-my-service
-  description: My sample service component
+  description: My sample service componentretetrteetr
   tags:
     - service
     - backend
