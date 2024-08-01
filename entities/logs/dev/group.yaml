@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: testingDeep-team-a
-  description: Team A responsible for backend services
+  description: Team A responsible for backend servicesTTTTTTTT
   tags:
     - team
     - backend
